@@ -23,6 +23,7 @@ npm install styled-components --save
 Install React awesome Spinners
 ```bash
 npm install react-awesome-spinners --save
+````
 
 Install Bootstrap
 ```bash
