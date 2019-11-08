@@ -29,7 +29,7 @@ Install Bootstrap
 npm install react-bootstrap bootstrap --save
 ```
 
-##Start
+## Start
 Also in the command line 
 ```bash
 npm start
