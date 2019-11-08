@@ -2,7 +2,7 @@
  * @Author: Arthur Skinner
  * @Date:   2019-10-30T11:49:05+00:00
  * @Last modified by:   Arthur Skinner
- * @Last modified time: 2019-11-07T18:38:00+00:00
+ * @Last modified time: 2019-11-08T11:14:31+00:00
  */
 import React from 'react';
 import Gryffindor from './houses/Gryffindor';
@@ -15,12 +15,10 @@ import Home from './Home';
 
 class House extends React.Component {
   render () {
-    //receives name passed through from app
     let whichHouse = this.props.match.params.name;
-
-    //whatever name is passed through willl result
-    //in the correct component rendering
-    if(whichHouse === 'home'){
+    //setting the name passed from App to a variable
+    //which ever name is passed will have the matching component
+    if(whichHouse === '/home'){
       return(
         <div>
           <Home />
@@ -71,9 +69,7 @@ class House extends React.Component {
     }
     else{
       return(
-        <div>
           <Home />
-        </div>
       )
     }
   }
