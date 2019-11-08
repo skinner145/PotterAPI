@@ -34,6 +34,3 @@ Also in the command line
 ```bash
 npm start
 ```
-
-npm install react --save
-npm install react-dom --save
